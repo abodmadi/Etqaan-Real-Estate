@@ -1,5 +1,7 @@
 import 'package:etqaan_real_estate/pages/splash/splash_page.dart';
+import 'package:etqaan_real_estate/routes/route_helper.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +13,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       title: 'Etqaan Real Estate Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
@@ -33,7 +35,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const SplashPage(),
+      //home: const SplashPage(),
+      initialRoute: RouteHelper.getSplashPage(),
+      getPages: RouteHelper.routes,
     );
   }
 }

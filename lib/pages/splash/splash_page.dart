@@ -1,7 +1,7 @@
 import 'dart:async';
-
-import 'package:etqaan_real_estate/utils/app_colors.dart';
+import 'package:etqaan_real_estate/routes/route_helper.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});
@@ -11,8 +11,8 @@ class SplashPage extends StatefulWidget {
 }
 
 class _SplashPageState extends State<SplashPage> with TickerProviderStateMixin {
-  late Animation<double> animation;
-  late AnimationController animationController;
+/*   late Animation<double> animation;
+  late AnimationController animationController; */
   _loadResources() {}
 
   @override
@@ -20,18 +20,19 @@ class _SplashPageState extends State<SplashPage> with TickerProviderStateMixin {
     // TODO: implement initState
     super.initState();
     _loadResources();
-    animationController = AnimationController(
+    /*  animationController = AnimationController(
       vsync: this,
       duration: const Duration(seconds: 3),
     )..forward();
     animation = CurvedAnimation(
       parent: animationController,
       curve: Curves.fastEaseInToSlowEaseOut,
-    );
+    ); */
+
     Timer(
-      Duration(seconds: 4),
+      Duration(seconds: 7),
       () {
-        print('Welcome');
+        Get.toNamed(RouteHelper.getHomePage());
       },
     );
   }
@@ -40,7 +41,7 @@ class _SplashPageState extends State<SplashPage> with TickerProviderStateMixin {
   void dispose() {
     // TODO: implement dispose
     super.dispose();
-    animationController.dispose();
+    //animationController.dispose();
   }
 
   @override
@@ -48,12 +49,33 @@ class _SplashPageState extends State<SplashPage> with TickerProviderStateMixin {
     return Scaffold(
       backgroundColor: Colors.white,
       body: SafeArea(
-        child: Column(
+        child: Center(
+          child: Container(
+            width: 300,
+            height: 300,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(20),
+              image: DecorationImage(
+                fit: BoxFit.cover,
+                image: NetworkImage(
+                  'http://192.168.0.183:8001/uploads/images/99.gif',
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/*
+Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
               width: double.maxFinite,
-              height: 215,
+              height: Dimensions.containerSplash,
               child: Stack(
                 children: [
                   Row(
@@ -62,16 +84,16 @@ class _SplashPageState extends State<SplashPage> with TickerProviderStateMixin {
                       ScaleTransition(
                         scale: animation,
                         child: Image(
-                          width: 180,
-                          height: 180,
+                          width: Dimensions.splashImageW,
+                          height: Dimensions.splashImageH,
                           image: AssetImage('assets/images/etqaanLogoRem.png'),
                         ),
                       ),
                       ScaleTransition(
                         scale: animation,
                         child: Image(
-                          width: 180,
-                          height: 180,
+                          width: Dimensions.splashImageW,
+                          height: Dimensions.splashImageH,
                           image: AssetImage(
                               'assets/images/etqaanLogoNameArRem.png'),
                         ),
@@ -82,12 +104,11 @@ class _SplashPageState extends State<SplashPage> with TickerProviderStateMixin {
                     scale: animation,
                     child: Align(
                       alignment: Alignment.bottomCenter,
-                      child: Text(
-                        'Etqaan Real Estate',
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 24,
-                          color: AppColors.bigTextColor,
+                      child: Image(
+                        width: Dimensions.splashImageW,
+                        height: Dimensions.splashImageH,
+                        image: AssetImage(
+                          'assets/images/etqaanLogoNameArRem.png',
                         ),
                       ),
                     ),
@@ -96,8 +117,5 @@ class _SplashPageState extends State<SplashPage> with TickerProviderStateMixin {
               ),
             ),
           ],
-        ),
-      ),
-    );
-  }
-}
+        )
+ */
