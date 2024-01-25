@@ -1,0 +1,18 @@
+{
+    "company_name":"Etqaan Real Estate",
+    "about_us":"More details about Etqaan",
+
+    "projects":"projects",
+    "real_estates":"Real Estates",
+    "auctions":"Auctions",
+
+    "project":"project",
+    "real_estate":"Real Estate",
+    "auction":"Auction",
+
+    "news":"News :",
+    "our_services":"Our services :",
+    "clients":"clients"
+    
+
+}
