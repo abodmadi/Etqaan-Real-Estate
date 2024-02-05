@@ -22,18 +22,43 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-        "about_us":
-            MessageLookupByLibrary.simpleMessage("More details about Etqaan"),
+        "about_us": MessageLookupByLibrary.simpleMessage("About us :"),
+        "account": MessageLookupByLibrary.simpleMessage("Account"),
+        "all_properties":
+            MessageLookupByLibrary.simpleMessage("All properties"),
+        "archived": MessageLookupByLibrary.simpleMessage("Archived"),
         "auction": MessageLookupByLibrary.simpleMessage("Auction"),
         "auctions": MessageLookupByLibrary.simpleMessage("Auctions"),
-        "clients": MessageLookupByLibrary.simpleMessage("clients"),
-        "company_name":
-            MessageLookupByLibrary.simpleMessage("Etqaan Real Estate"),
-        "news": MessageLookupByLibrary.simpleMessage("News :"),
-        "our_services": MessageLookupByLibrary.simpleMessage("Our services :"),
+        "browse_social":
+            MessageLookupByLibrary.simpleMessage("Browse whatever you want"),
+        "chats": MessageLookupByLibrary.simpleMessage("Chats"),
+        "choose_the_topics":
+            MessageLookupByLibrary.simpleMessage("Choose the topics"),
+        "clients": MessageLookupByLibrary.simpleMessage("Clients"),
+        "company_name_part1": MessageLookupByLibrary.simpleMessage("Etqaan"),
+        "company_name_part2":
+            MessageLookupByLibrary.simpleMessage("Real Estate"),
+        "home": MessageLookupByLibrary.simpleMessage("Home"),
+        "latest_auctions":
+            MessageLookupByLibrary.simpleMessage("Latest auctions"),
+        "latest_news": MessageLookupByLibrary.simpleMessage("Latest news"),
+        "more":
+            MessageLookupByLibrary.simpleMessage("More details about Etqaan"),
+        "news": MessageLookupByLibrary.simpleMessage("News"),
+        "one_news": MessageLookupByLibrary.simpleMessage("News"),
+        "our_services": MessageLookupByLibrary.simpleMessage("Our services"),
         "project": MessageLookupByLibrary.simpleMessage("project"),
         "projects": MessageLookupByLibrary.simpleMessage("projects"),
+        "prominent_projects":
+            MessageLookupByLibrary.simpleMessage("Most prominent projects"),
         "real_estate": MessageLookupByLibrary.simpleMessage("Real Estate"),
-        "real_estates": MessageLookupByLibrary.simpleMessage("Real Estates")
+        "real_estates": MessageLookupByLibrary.simpleMessage("Real Estates"),
+        "running": MessageLookupByLibrary.simpleMessage("Running"),
+        "settings": MessageLookupByLibrary.simpleMessage("Settings"),
+        "show_less": MessageLookupByLibrary.simpleMessage("Show less"),
+        "show_more": MessageLookupByLibrary.simpleMessage("Show more"),
+        "social_media": MessageLookupByLibrary.simpleMessage("Social media"),
+        "you_are_interested_in":
+            MessageLookupByLibrary.simpleMessage("you are interested in")
       };
 }

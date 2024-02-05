@@ -22,17 +22,41 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-        "about_us":
-            MessageLookupByLibrary.simpleMessage("مزيد من التفاصيل عن إتقان"),
+        "about_us": MessageLookupByLibrary.simpleMessage("من نحن :"),
+        "account": MessageLookupByLibrary.simpleMessage("الحساب"),
+        "all_properties": MessageLookupByLibrary.simpleMessage("جميع العقارات"),
+        "archived": MessageLookupByLibrary.simpleMessage("مؤرشفة"),
         "auction": MessageLookupByLibrary.simpleMessage("مزاد"),
         "auctions": MessageLookupByLibrary.simpleMessage("المزادات"),
+        "browse_social": MessageLookupByLibrary.simpleMessage("تصفح ما تريد"),
+        "chats": MessageLookupByLibrary.simpleMessage("الدردشات"),
+        "choose_the_topics":
+            MessageLookupByLibrary.simpleMessage("اختر المواضيع"),
         "clients": MessageLookupByLibrary.simpleMessage("العملاء"),
-        "company_name": MessageLookupByLibrary.simpleMessage("إتقان العقارية"),
-        "news": MessageLookupByLibrary.simpleMessage("الأخبار :"),
-        "our_services": MessageLookupByLibrary.simpleMessage("خدماتنا :"),
+        "company_name_part1": MessageLookupByLibrary.simpleMessage("إتقان"),
+        "company_name_part2": MessageLookupByLibrary.simpleMessage("العقارية"),
+        "home": MessageLookupByLibrary.simpleMessage("الصفحة الرئيسية"),
+        "latest_auctions":
+            MessageLookupByLibrary.simpleMessage("أحدث المزادات"),
+        "latest_news": MessageLookupByLibrary.simpleMessage("أخر الأخبار"),
+        "more":
+            MessageLookupByLibrary.simpleMessage("مزيد من التفاصيل عن إتقان"),
+        "news": MessageLookupByLibrary.simpleMessage("الأخبار"),
+        "one_news": MessageLookupByLibrary.simpleMessage("خبر"),
+        "our_services": MessageLookupByLibrary.simpleMessage("الخدمات:"),
         "project": MessageLookupByLibrary.simpleMessage("مشروع"),
         "projects": MessageLookupByLibrary.simpleMessage("المشاريع"),
+        "prominent_projects":
+            MessageLookupByLibrary.simpleMessage("أبرز المشاريع"),
         "real_estate": MessageLookupByLibrary.simpleMessage("عقار"),
-        "real_estates": MessageLookupByLibrary.simpleMessage("العقارات")
+        "real_estates": MessageLookupByLibrary.simpleMessage("العقارات"),
+        "running": MessageLookupByLibrary.simpleMessage("قيد العمل"),
+        "settings": MessageLookupByLibrary.simpleMessage("الأعدادات"),
+        "show_less": MessageLookupByLibrary.simpleMessage("عرض القليل"),
+        "show_more": MessageLookupByLibrary.simpleMessage("عرض المزيد"),
+        "social_media":
+            MessageLookupByLibrary.simpleMessage("التواصل الأجتماعي"),
+        "you_are_interested_in":
+            MessageLookupByLibrary.simpleMessage("التي تهمك")
       };
 }

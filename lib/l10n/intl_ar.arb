@@ -1,13 +1,42 @@
 {
-    "company_name":"إتقان العقارية",
-    "about_us":"مزيد من التفاصيل عن إتقان",
+    "company_name_part1":"إتقان",
+    "company_name_part2":"العقارية",
+
+    "about_us":"من نحن :",
+    "more":"مزيد من التفاصيل عن إتقان",
+
+    "choose_the_topics":"اختر المواضيع",
+    "you_are_interested_in":"التي تهمك",
+
     "projects":"المشاريع",
     "real_estates":"العقارات",
     "auctions":"المزادات",
+    "news":"الأخبار",
+    
     "project":"مشروع",
     "real_estate":"عقار",
     "auction":"مزاد",
-    "news":"الأخبار :",
-    "our_services":"خدماتنا :",
+    "one_news":"خبر",
+
+    "prominent_projects":"أبرز المشاريع",
+    "latest_auctions":"أحدث المزادات",
+    "latest_news":"أخر الأخبار",
+    "all_properties":"جميع العقارات",
+    "browse_social":"تصفح ما تريد",
+
+    "our_services":"الخدمات:",
+    "social_media":"التواصل الأجتماعي",
+
+    "running":"قيد العمل",
+    "archived":"مؤرشفة",
+
+    "show_more":"عرض المزيد",
+    "show_less":"عرض القليل",
+
+    "home":"الصفحة الرئيسية",
+    "settings":"الأعدادات",
+    "chats":"الدردشات",
+    "account":"الحساب",
+
     "clients":"العملاء"
 }

@@ -50,21 +50,61 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
-  /// `Etqaan Real Estate`
-  String get company_name {
+  /// `Etqaan`
+  String get company_name_part1 {
     return Intl.message(
-      'Etqaan Real Estate',
-      name: 'company_name',
+      'Etqaan',
+      name: 'company_name_part1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Real Estate`
+  String get company_name_part2 {
+    return Intl.message(
+      'Real Estate',
+      name: 'company_name_part2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `About us :`
+  String get about_us {
+    return Intl.message(
+      'About us :',
+      name: 'about_us',
       desc: '',
       args: [],
     );
   }
 
   /// `More details about Etqaan`
-  String get about_us {
+  String get more {
     return Intl.message(
       'More details about Etqaan',
-      name: 'about_us',
+      name: 'more',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Choose the topics`
+  String get choose_the_topics {
+    return Intl.message(
+      'Choose the topics',
+      name: 'choose_the_topics',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `you are interested in`
+  String get you_are_interested_in {
+    return Intl.message(
+      'you are interested in',
+      name: 'you_are_interested_in',
       desc: '',
       args: [],
     );
@@ -100,6 +140,26 @@ class S {
     );
   }
 
+  /// `News`
+  String get news {
+    return Intl.message(
+      'News',
+      name: 'news',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `News`
+  String get one_news {
+    return Intl.message(
+      'News',
+      name: 'one_news',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `project`
   String get project {
     return Intl.message(
@@ -130,30 +190,160 @@ class S {
     );
   }
 
-  /// `News :`
-  String get news {
+  /// `Most prominent projects`
+  String get prominent_projects {
     return Intl.message(
-      'News :',
-      name: 'news',
+      'Most prominent projects',
+      name: 'prominent_projects',
       desc: '',
       args: [],
     );
   }
 
-  /// `Our services :`
+  /// `Latest auctions`
+  String get latest_auctions {
+    return Intl.message(
+      'Latest auctions',
+      name: 'latest_auctions',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Latest news`
+  String get latest_news {
+    return Intl.message(
+      'Latest news',
+      name: 'latest_news',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `All properties`
+  String get all_properties {
+    return Intl.message(
+      'All properties',
+      name: 'all_properties',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Browse whatever you want`
+  String get browse_social {
+    return Intl.message(
+      'Browse whatever you want',
+      name: 'browse_social',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Our services`
   String get our_services {
     return Intl.message(
-      'Our services :',
+      'Our services',
       name: 'our_services',
       desc: '',
       args: [],
     );
   }
 
-  /// `clients`
+  /// `Social media`
+  String get social_media {
+    return Intl.message(
+      'Social media',
+      name: 'social_media',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Running`
+  String get running {
+    return Intl.message(
+      'Running',
+      name: 'running',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Archived`
+  String get archived {
+    return Intl.message(
+      'Archived',
+      name: 'archived',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Show more`
+  String get show_more {
+    return Intl.message(
+      'Show more',
+      name: 'show_more',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Show less`
+  String get show_less {
+    return Intl.message(
+      'Show less',
+      name: 'show_less',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Home`
+  String get home {
+    return Intl.message(
+      'Home',
+      name: 'home',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Settings`
+  String get settings {
+    return Intl.message(
+      'Settings',
+      name: 'settings',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Chats`
+  String get chats {
+    return Intl.message(
+      'Chats',
+      name: 'chats',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Account`
+  String get account {
+    return Intl.message(
+      'Account',
+      name: 'account',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Clients`
   String get clients {
     return Intl.message(
-      'clients',
+      'Clients',
       name: 'clients',
       desc: '',
       args: [],

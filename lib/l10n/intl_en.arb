@@ -1,18 +1,44 @@
 {
-    "company_name":"Etqaan Real Estate",
-    "about_us":"More details about Etqaan",
+    "company_name_part1":"Etqaan",
+    "company_name_part2":"Real Estate",
+
+    "about_us":"About us :",
+    "more":"More details about Etqaan",
+
+    "choose_the_topics":"Choose the topics",
+    "you_are_interested_in":"you are interested in",
 
     "projects":"projects",
     "real_estates":"Real Estates",
     "auctions":"Auctions",
+    "news":"News",
+    "one_news":"News",
 
     "project":"project",
     "real_estate":"Real Estate",
     "auction":"Auction",
 
-    "news":"News :",
-    "our_services":"Our services :",
-    "clients":"clients"
+    "prominent_projects":"Most prominent projects",
+    "latest_auctions":"Latest auctions",
+    "latest_news":"Latest news",
+    "all_properties":"All properties",
+    "browse_social":"Browse whatever you want",
+
+    "our_services":"Our services",
+    "social_media":"Social media",
+
+    "running":"Running",
+    "archived":"Archived",
+    
+    "show_more":"Show more",
+    "show_less":"Show less",
+
+    "home":"Home",
+    "settings":"Settings",
+    "chats":"Chats",
+    "account":"Account",
+
+    "clients":"Clients"
     
 
 }
