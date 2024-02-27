@@ -240,6 +240,66 @@ class S {
     );
   }
 
+  /// `Contact us via:`
+  String get contacts_us {
+    return Intl.message(
+      'Contact us via:',
+      name: 'contacts_us',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Facebook`
+  String get facebook {
+    return Intl.message(
+      'Facebook',
+      name: 'facebook',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `YouTube`
+  String get youtube {
+    return Intl.message(
+      'YouTube',
+      name: 'youtube',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `X`
+  String get x {
+    return Intl.message(
+      'X',
+      name: 'x',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Instagram`
+  String get instagram {
+    return Intl.message(
+      'Instagram',
+      name: 'instagram',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Etqaan Real Estate`
+  String get etqaan {
+    return Intl.message(
+      'Etqaan Real Estate',
+      name: 'etqaan',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Our services`
   String get our_services {
     return Intl.message(
@@ -270,11 +330,11 @@ class S {
     );
   }
 
-  /// `Archived`
-  String get archived {
+  /// `Archives`
+  String get archives {
     return Intl.message(
-      'Archived',
-      name: 'archived',
+      'Archives',
+      name: 'archives',
       desc: '',
       args: [],
     );

@@ -23,12 +23,19 @@
     "latest_news":"أخر الأخبار",
     "all_properties":"جميع العقارات",
     "browse_social":"تصفح ما تريد",
+    "contacts_us":"تواصل معنا عبر:",
+
+    "facebook":"فيسبوك",
+    "youtube":"YouTube",
+    "x":"X",
+    "instagram":"انستغرام",
+    "etqaan":"إتقان العقارية",
 
     "our_services":"الخدمات:",
     "social_media":"التواصل الأجتماعي",
 
     "running":"قيد العمل",
-    "archived":"مؤرشفة",
+    "archives":"الأرشيف",
 
     "show_more":"عرض المزيد",
     "show_less":"عرض القليل",

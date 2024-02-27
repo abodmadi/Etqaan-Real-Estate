@@ -2,6 +2,7 @@ import 'package:etqaan_real_estate/pages/auction/auction_page.dart';
 import 'package:etqaan_real_estate/pages/company/company_page.dart';
 import 'package:etqaan_real_estate/pages/home/home_page.dart';
 import 'package:etqaan_real_estate/pages/news/news_page.dart';
+import 'package:etqaan_real_estate/pages/project/project_details_page.dart';
 import 'package:etqaan_real_estate/pages/project/project_page.dart';
 import 'package:etqaan_real_estate/pages/real-estate/reale_estate_page.dart';
 import 'package:etqaan_real_estate/pages/social-media/social_media_page.dart';
@@ -14,6 +15,7 @@ class RouteHelper {
   static const String splash = '/splash';
   static const String company = '/company';
   static const String projects = '/projects';
+  static const String projectDetails = '/projects-details';
   static const String auctions = '/auctions';
   static const String news = '/news';
   static const String realEstates = '/real-estates';
@@ -24,6 +26,7 @@ class RouteHelper {
   static String getSplashPage() => '$splash';
   static String getCompanyPage() => '$company';
   static String getProjectsPage() => '$projects';
+  static String getProjectDetailsPage(int id) => '$projectDetails?id=$id';
   static String getAuctionsPage() => '$auctions';
   static String getRealEstatesPage() => '$realEstates';
   static String getNewsPage() => '$news';
@@ -66,6 +69,17 @@ class RouteHelper {
       page: () {
         print('Navigate to projects page');
         return ProjectPage();
+      },
+      transition: Transition.fadeIn,
+    ),
+    GetPage(
+      name: projectDetails,
+      page: () {
+        print('Navigate to project details page');
+        String? id = Get.parameters['id'];
+        return ProjectDetailsPage(
+          projectID: int.parse(id!),
+        );
       },
       transition: Transition.fadeIn,
     ),

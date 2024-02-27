@@ -1,6 +1,7 @@
 import 'package:etqaan_real_estate/generated/l10n.dart';
 import 'package:etqaan_real_estate/utils/app_colors.dart';
 import 'package:etqaan_real_estate/utils/dimensions.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 
@@ -40,6 +41,16 @@ class CustomBottomNavBar extends StatelessWidget {
             GButton(
               text: S.of(context).home,
               icon: Icons.home_rounded,
+              iconSize: Dimensions.iconSize30,
+              textStyle: TextStyle(
+                fontFamily: 'GESSTwo',
+                fontSize: Dimensions.fontSize12,
+                color: AppColors.mainBackColor2,
+              ),
+            ),
+            GButton(
+              text: S.of(context).archives,
+              icon: CupertinoIcons.archivebox_fill,
               iconSize: Dimensions.iconSize30,
               textStyle: TextStyle(
                 fontFamily: 'GESSTwo',

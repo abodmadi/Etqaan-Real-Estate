@@ -26,7 +26,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "account": MessageLookupByLibrary.simpleMessage("Account"),
         "all_properties":
             MessageLookupByLibrary.simpleMessage("All properties"),
-        "archived": MessageLookupByLibrary.simpleMessage("Archived"),
+        "archives": MessageLookupByLibrary.simpleMessage("Archives"),
         "auction": MessageLookupByLibrary.simpleMessage("Auction"),
         "auctions": MessageLookupByLibrary.simpleMessage("Auctions"),
         "browse_social":
@@ -38,7 +38,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "company_name_part1": MessageLookupByLibrary.simpleMessage("Etqaan"),
         "company_name_part2":
             MessageLookupByLibrary.simpleMessage("Real Estate"),
+        "contacts_us": MessageLookupByLibrary.simpleMessage("Contact us via:"),
+        "etqaan": MessageLookupByLibrary.simpleMessage("Etqaan Real Estate"),
+        "facebook": MessageLookupByLibrary.simpleMessage("Facebook"),
         "home": MessageLookupByLibrary.simpleMessage("Home"),
+        "instagram": MessageLookupByLibrary.simpleMessage("Instagram"),
         "latest_auctions":
             MessageLookupByLibrary.simpleMessage("Latest auctions"),
         "latest_news": MessageLookupByLibrary.simpleMessage("Latest news"),
@@ -58,7 +62,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "show_less": MessageLookupByLibrary.simpleMessage("Show less"),
         "show_more": MessageLookupByLibrary.simpleMessage("Show more"),
         "social_media": MessageLookupByLibrary.simpleMessage("Social media"),
+        "x": MessageLookupByLibrary.simpleMessage("X"),
         "you_are_interested_in":
-            MessageLookupByLibrary.simpleMessage("you are interested in")
+            MessageLookupByLibrary.simpleMessage("you are interested in"),
+        "youtube": MessageLookupByLibrary.simpleMessage("YouTube")
       };
 }

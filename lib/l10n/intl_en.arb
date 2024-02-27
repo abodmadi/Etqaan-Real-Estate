@@ -23,12 +23,19 @@
     "latest_news":"Latest news",
     "all_properties":"All properties",
     "browse_social":"Browse whatever you want",
+    "contacts_us":"Contact us via:",
+
+    "facebook":"Facebook",
+    "youtube":"YouTube",
+    "x":"X",
+    "instagram":"Instagram",
+    "etqaan":"Etqaan Real Estate",
 
     "our_services":"Our services",
     "social_media":"Social media",
 
     "running":"Running",
-    "archived":"Archived",
+    "archives":"Archives",
     
     "show_more":"Show more",
     "show_less":"Show less",

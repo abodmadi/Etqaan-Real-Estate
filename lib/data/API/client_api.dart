@@ -37,4 +37,23 @@ class ClientAPI extends GetConnect implements GetxService {
       return Response(statusCode: 1, statusText: ex.toString());
     }
   }
+
+  Future<Response> postData(
+      {required String url,
+      required dynamic body,
+      Map<String, String>? headers}) async {
+    try {
+      Response response = await post(
+        url,
+        body,
+        headers: headers ?? _mainHeaders,
+      );
+      return response;
+    } catch (ex) {
+      return Response(
+        statusCode: 1,
+        statusText: ex.toString(),
+      );
+    }
+  }
 }

@@ -20,7 +20,7 @@ class ProjectController extends GetxController {
       _isLoaded = true;
       _listProjects = [];
       _listProjects.addAll(Project.fromJson(response.body).projects!);
-      print("Responce Body: " + response.body['projects'].toString());
+      //print("Responce Body: " + response.body['projects'].toString());
     } else {
       print("Responce Body: " + response.body.toString());
     }

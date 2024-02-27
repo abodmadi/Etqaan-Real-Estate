@@ -72,6 +72,7 @@ class RealEstatePage extends StatelessWidget {
                                         curve: Curves.fastLinearToSlowEaseIn,
                                         duration: Duration(milliseconds: 2500),
                                         child: CustomInformationCard(
+                                          isFavorite: false,
                                           coverLink: projectController
                                               .listProjects[index].coverLink!,
                                           title: projectController

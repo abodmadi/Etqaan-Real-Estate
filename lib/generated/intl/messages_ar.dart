@@ -25,7 +25,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "about_us": MessageLookupByLibrary.simpleMessage("من نحن :"),
         "account": MessageLookupByLibrary.simpleMessage("الحساب"),
         "all_properties": MessageLookupByLibrary.simpleMessage("جميع العقارات"),
-        "archived": MessageLookupByLibrary.simpleMessage("مؤرشفة"),
+        "archives": MessageLookupByLibrary.simpleMessage("الأرشيف"),
         "auction": MessageLookupByLibrary.simpleMessage("مزاد"),
         "auctions": MessageLookupByLibrary.simpleMessage("المزادات"),
         "browse_social": MessageLookupByLibrary.simpleMessage("تصفح ما تريد"),
@@ -35,7 +35,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "clients": MessageLookupByLibrary.simpleMessage("العملاء"),
         "company_name_part1": MessageLookupByLibrary.simpleMessage("إتقان"),
         "company_name_part2": MessageLookupByLibrary.simpleMessage("العقارية"),
+        "contacts_us": MessageLookupByLibrary.simpleMessage("تواصل معنا عبر:"),
+        "etqaan": MessageLookupByLibrary.simpleMessage("إتقان العقارية"),
+        "facebook": MessageLookupByLibrary.simpleMessage("فيسبوك"),
         "home": MessageLookupByLibrary.simpleMessage("الصفحة الرئيسية"),
+        "instagram": MessageLookupByLibrary.simpleMessage("انستغرام"),
         "latest_auctions":
             MessageLookupByLibrary.simpleMessage("أحدث المزادات"),
         "latest_news": MessageLookupByLibrary.simpleMessage("أخر الأخبار"),
@@ -56,7 +60,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "show_more": MessageLookupByLibrary.simpleMessage("عرض المزيد"),
         "social_media":
             MessageLookupByLibrary.simpleMessage("التواصل الأجتماعي"),
+        "x": MessageLookupByLibrary.simpleMessage("X"),
         "you_are_interested_in":
-            MessageLookupByLibrary.simpleMessage("التي تهمك")
+            MessageLookupByLibrary.simpleMessage("التي تهمك"),
+        "youtube": MessageLookupByLibrary.simpleMessage("YouTube")
       };
 }
